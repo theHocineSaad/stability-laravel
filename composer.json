@@ -1,0 +1,48 @@
+{
+    "name": "thehocinesaad/stability-laravel",
+    "description": "Stability Laravel is a comprehensive Laravel API client designed for seamless interaction with the Stability AI API.",
+    "keywords": [
+        "stability-php",
+        "stability-laravel",
+        "ai",
+        "stability",
+        "laravel",
+        "client",
+        "stable diffusion"
+    ],
+    "homepage": "https://github.com/thehocinesaad/stability-laravel",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hocine Saad",
+            "email": "saadhocine0@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "thehocinesaad/stability-php": "^0.1.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "orchestra/testbench": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheHocineSaad\\StabilityLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheHocineSaad\\StabilityLaravel\\StabilityLaravelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
