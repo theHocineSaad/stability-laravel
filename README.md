@@ -2,7 +2,7 @@
 
 Stability Laravel is a Laravel API client offering developers an intuitive and efficient interface to interact seamlessly with the [Stability AI API](https://platform.stability.ai/docs/api-reference "Stability AI API").
 
-> **Note: ** This package is built on top of [Stability PHP.](https://github.com/thehocinesaad/stability-php "Stability PHP.")
+> **Note:** This package is built on top of [Stability PHP.](https://github.com/thehocinesaad/stability-php "Stability PHP.")
 
 ## Installation
 
