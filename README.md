@@ -19,6 +19,8 @@ Then, add your Stability AI API key to the .env file:
 After that, you can start using it:
 
 ```php
+use TheHocineSaad\StabilityLaravel\Facades\Stability;
+
 $response = Stability::generations()->textToImage(
     'stable-diffusion-xl-1024-v1-0',
     [
